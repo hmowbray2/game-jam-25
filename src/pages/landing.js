@@ -11,6 +11,7 @@ export const Landing = () => {
         <h2>Did you know you can invest with as little as £1?</h2>
         <button>Yes, I know!</button>
         <button onClick={() => navigate("/quiz")}>No, tell me more</button>
+        <button onClick={() => navigate("avatar")}>Choose avatar!</button>
       </>
     </>
   );
