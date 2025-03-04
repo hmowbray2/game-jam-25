@@ -12,7 +12,7 @@
   border: 5px solid #14525e;
   border-radius: 50%;
 }
-.App {
+.box {
   display: flex;
   flex-direction: column;
   justify-content: center;

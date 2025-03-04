@@ -36,7 +36,7 @@ You now have a choice to make... you could save it, invest it, or finally treat 
 Will you play it safe, take risks, or find the perfect balance?`;
 
   return (
-    <div className="App">
+    <div className="box">
       <Typewriter text={fullText} onComplete={() => setShowButton(true)} />
       {showButton && (
         <button
